@@ -4,13 +4,13 @@ def volumen(área,profundidad):
 
 def área(b,a):
         a=(b*a)
-        volumen(a,p)
+        volumen(a,p) ##Estás utilizando una variable que no existe en este contexto.
 def main():
     #escribe tu código abajo de esta línea
     
     base=float(input('Dame la base: '))
     altura=float(input('Dame la altura: '))
-    p=float(input('Dame la profundidad: '))
+    p=float(input('Dame la profundidad: ')) #p solo existe en el contexto de la función main
 
     área(base,altura)
     pass

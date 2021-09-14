@@ -1,6 +1,6 @@
 def area(base,altura):
     área=(base*altura)
-        print('El área del rectángulo es: %0.2f' %área)
+    print('El área del rectángulo es: %0.2f' %área)
 def main():
     #escribe tu código abajo de esta línea
 
